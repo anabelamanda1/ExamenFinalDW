@@ -14,15 +14,14 @@ new Vue({
         this.recipes = data.recipes;
       },
       cook() {
-        // Encontrar una receta que tenga al menos 2 ingredientes seleccionados
         this.recipe = this.recipes.find(r =>
           this.selectedIngredients.length >= 2 && 
           this.selectedIngredients.every(ing => r.ingredients.includes(ing))
         );
       },
       clearSelection() {
-        this.selectedIngredients = []; // Limpiar la selección de ingredientes
-        this.recipe = null; // Limpiar la receta mostrada
+        this.selectedIngredients = [];
+        this.recipe = null; 
       }
     },
     created() {
