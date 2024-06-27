@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    gap: 15px;
+  }
+  
+  .result,
+  .ingredients {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+  }
+  
+  .result {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+    
+  .result h1 {
+    text-align: center;
+  }
+  
+  .ingredients {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .ingredients h3 {
+    background-color: #c066c9;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+  }
+  
+  .ingredients div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .ingredients input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d073fc;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .ingredients input[type="checkbox"]:checked {
+    background-color: #da89ff;
+  }
+  
+  .ingredients .button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .ingredients button {
+    padding: 10px 20px;
+    background-color: #cab6f8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .ingredients button:hover {
+    background-color: #cab6f8;
+  }
+  
+  .result-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .result-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .ingredients-list {
+    margin-bottom: 10px;
+  }
+  
+  .ingredients-list p {
+    font-weight: bold;
+    font-size: 18px; 
+    margin-bottom: 5px; 
+  }
+  
+  .ingredients-list ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  .recipe-image {
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+  }

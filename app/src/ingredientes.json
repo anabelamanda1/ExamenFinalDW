@@ -1,0 +1,31 @@
+{
+    "ingredients": ["Pollo", "Arroz", "Papa", "Aji Amarillo", "Cebolla", "Lomo", "Limón", "Maíz", "Camote", "Culantro", "Pescado"],
+    "recipes": [
+      {
+        "name": "Ají de Gallina",
+        "ingredients": ["Pollo", "Aji Amarillo"],
+        "image": "app/src/css/image/plato1.jpg"
+      },
+      {
+        "name": "Lomo Saltado",
+        "ingredients": ["Papa", "Cebolla", "Lomo"],
+        "image": "app/src/css/image/plato2.jpg"
+      },
+      {
+        "name": "Ceviche",
+        "ingredients": ["Limón", "Cebolla", "Pescado"],
+        "image": "app/src/css/image/plato3.jpg"
+      },
+      {
+        "name": "Arroz con Pollo",
+        "ingredients": ["Pollo", "Arroz", "Culantro"],
+        "image": "app/src/css/image/plato4.jpg"
+      },
+      {
+        "name": "Causa Limeña",
+        "ingredients": ["Papa", "Aji Amarillo"],
+        "image": "app/src/css/image/plato5.jpg"
+      }
+    ]
+  }
+  
